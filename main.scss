@@ -37,39 +37,37 @@ body{
 
 //Clip path 2 starts here
 
-    .inner2{
-        background: #2EE595;
-        padding: 1em;
-        width: 250px;
-        border-radius: 10px;
-        clip-path: circle(10% at 90% 20%);
-        transition: all .5s ease-in-out;
-        cursor: pointer;
-        
-        &:hover{
-          clip-path: circle(75%);
-          background: #2EE595  
-        }
-
-        &:hover{
-            color: rgba(255,255,255,0);
-        }
-
-        span{
-            float: right;
-            transition: color .5s;
-            position: relative;
-            margin-right: 4%;
-            margin-top: 2%;
-        }
-
-        h1{
-            margin: 0;
-        }
-        p{
-            font-size: 15px;
-        }
+.inner2{
+    background: #2EE595;
+    padding: 1em;
+    width: 250px;
+    border-radius: 10px;
+    clip-path: circle(10% at 90% 20%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    
+    &:hover{
+        clip-path: circle(75%);
+        background: #2EE595  
     }
+
+
+
+    span{
+        float: right;
+        transition: color .5s;
+        position: relative;
+        margin-right: 4%;
+        margin-top: 2%;
+    }
+
+    h1{
+        margin: 0;
+    }
+    p{
+        font-size: 15px;
+    }
+}
 
 
 .menu{

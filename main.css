@@ -64,10 +64,6 @@ body {
   background: #2EE595;
 }
 
-.inner2:hover {
-  color: rgba(255, 255, 255, 0);
-}
-
 .inner2 span {
   float: right;
   -webkit-transition: color .5s;
